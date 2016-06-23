@@ -37,7 +37,7 @@ class DQN:
         self.target_network_update_frequency = 10000
         self.T = 0
         self.TMAX = 80000000
-        self.checkpoint_interval = 600
+        self.checkpoint_interval = 60000
         self.checkpoint_dir = "/tmp/"
         self.enable_plots = enable_plots
         self.stats_rate = stats_rate
